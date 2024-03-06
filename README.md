@@ -138,3 +138,13 @@ resource "aws_instance" "terraform-platzi-instance" {
  ```terraform apply --var-file .\dev.tfvars```
 **nota:** en el caso que queramos crear o elimnar la insfraestrucrua, para que no se noes pregunte si queremos realizarlo, podemos hacer uso de labandera **-auto-approve**, por ejemplo:
 ```terraform destroy --var-file .\dev.tfvars -auto-aprove``
+
+*Evidencias
+
+*Plan
+<img width="584" alt="Captura de pantalla 2024-03-05 a la(s) 9 15 30 p  m" src="https://github.com/ChristianFlor/azfunction-tf/assets/69942961/4d259491-22e6-4d6f-a91c-c69ead0be706">
+
+<img width="584" alt="Captura de pantalla 2024-03-05 a la(s) 9 15 14 p  m" src="https://github.com/ChristianFlor/azfunction-tf/assets/69942961/3e8c3dac-618a-42f6-a88c-46514d4e2c3f">
+<img width="1430" alt="Captura de pantalla 2024-03-05 a la(s) 9 14 45 p  m" src="https://github.com/ChristianFlor/azfunction-tf/assets/69942961/2529871c-d029-40c1-9813-d76dde099272">
+<img width="1430" alt="Captura de pantalla 2024-03-05 a la(s) 9 13 54 p  m" src="https://github.com/ChristianFlor/azfunction-tf/assets/69942961/6eccd53d-4082-4448-a404-bb6267664bb3">
+<img width="1430" alt="Captura de pantalla 2024-03-05 a la(s) 9 13 35 p  m" src="https://github.com/ChristianFlor/azfunction-tf/assets/69942961/3b0472db-e28e-4b60-be91-a263ba531213">
